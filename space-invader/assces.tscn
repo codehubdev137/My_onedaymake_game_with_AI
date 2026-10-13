@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://by8ksaj7imlb5"]
+
+[node name="assces" type="Node2D" unique_id=1122421934]
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=1240838641]
+position = Vector2(83, 609)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player" unique_id=1325558722]
+
+[node name="ColorRect" type="ColorRect" parent="player" unique_id=235315816]
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="normal_enermy" type="CharacterBody2D" parent="." unique_id=973058419]
+position = Vector2(443, 163)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="normal_enermy" unique_id=1904953186]
+
+[node name="ColorRect" type="ColorRect" parent="normal_enermy" unique_id=750333479]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(1, 0, 0, 1)
+
+[node name="player_bullet" type="CharacterBody2D" parent="." unique_id=1509040546]
+position = Vector2(211, 351)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player_bullet" unique_id=122307565]
+position = Vector2(-2.5, 0)
+
+[node name="ColorRect" type="ColorRect" parent="player_bullet" unique_id=1543935981]
+offset_left = -12.0
+offset_top = -17.0
+offset_right = -1.0
+offset_bottom = 16.0
+color = Color(1, 1, 0, 1)
